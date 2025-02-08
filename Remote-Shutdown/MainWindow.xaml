@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:Remote_Shutdown"
         mc:Ignorable="d"
         Title="Remote Shutdown" Height="400" Width="800" MinHeight="400" MinWidth="400"
-        Background="#1E3A5F" WindowStartupLocation="Manual" ResizeMode="CanResize" Topmost="True">
+        Background="#1E3A5F" WindowStartupLocation="Manual" ResizeMode="CanResize" Topmost="False"
+         StateChanged="OnStateChanged" IsVisibleChanged="OnIsVisibleChanged"> <!-- for system tray -->
 
     <Grid Margin="10">
         <Grid.RowDefinitions>
